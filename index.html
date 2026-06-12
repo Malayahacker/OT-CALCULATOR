@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OT Calculator Pro</title>
     <link rel="stylesheet" href="style.css">
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3067/3067343.png">
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('sw.js')
+            .then(() => console.log('App Ready Offline!'))
+            .catch((err) => console.log('PWA Error:', err));
+        });
+      }
+    </script>
 </head>
 <body>
 
@@ -51,21 +66,12 @@
             <span id="totalOT" class="value-text-total">RM 0.00</span>
         </div>
     </div>
-</div>
-<link rel="manifest" href="manifest.json">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3067/3067343.png">
 
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('sw.js')
-            .then(() => console.log('App Ready Offline!'))
-            .catch((err) => console.log('PWA Error:', err));
-        });
-      }
-    </script>
+    <div class="developer-footer">
+        Developed by <span>Wan Mustaqim</span>
+    </div>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>
