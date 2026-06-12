@@ -1,4 +1,4 @@
-const CACHE_NAME = 'ot-calc-v1';
+const CACHE_NAME = 'ot-calc-v1.1';
 const ASSETS = [
   'index.html',
   'style.css',
