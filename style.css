@@ -185,3 +185,19 @@ select {
     color: var(--total-color);
     letter-spacing: -0.5px;
 }
+
+/* Gaya Teks Developer Dekat Bawah Kad */
+.developer-footer {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    opacity: 0.8;
+}
+
+.developer-footer span {
+    font-weight: 700;
+    color: var(--primary);
+}
