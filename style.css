@@ -1,12 +1,12 @@
 :root {
-    --primary: #007af5; /* Apple Blue */
-    --background: #f2f2f7; /* Apple System Gray 6 */
-    --surface: rgba(255, 255, 255, 0.8); /* Frosted Glass */
+    --primary: #007af5;
+    --background: #f2f2f7; 
+    --surface: rgba(255, 255, 255, 0.8); 
     --card-border: rgba(0, 0, 0, 0.1);
     --text: #000000;
-    --text-secondary: #8e8e93; /* Apple Gray */
-    --input-bg: #e5e5ea; /* Apple System Gray 4 */
-    --total-color: #34c759; /* Apple Green */
+    --text-secondary: #8e8e93; 
+    --input-bg: #e5e5ea; 
+    --total-color: #34c759; 
     --shadow: rgba(0, 0, 0, 0.08);
 }
 
