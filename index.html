@@ -29,13 +29,13 @@
     <h2>OT Pay Calculator</h2>
     
     <div class="input-group">
-        <label for="grossSalary">Gaji Pokok / Gaji Kasar (RM)</label>
+        <label for="grossSalary">Gaji Kasar (RM)</label>
         <input type="number" id="grossSalary" value="0" min="0" step="0.01">
         <div class="info-text">Masukkan jumlah kasar (Basic + Elaun Tetap jika ada).</div>
     </div>
 
     <div class="input-group">
-        <label for="otRate">Jenis Hari / OT (Rate)</label>
+        <label for="otRate">OT (Rate)</label>
         <div class="select-wrapper">
             <select id="otRate">
                 <option value="1.5" data-default-hours="10.5">Normal Day & Off Day (1.5)</option>
@@ -47,9 +47,9 @@
     </div>
 
     <div class="input-group">
-        <label for="otHours">OT Hours (Jam Kerja OT)</label>
+        <label for="otHours">OT Hours </label>
         <input type="number" id="otHours" value="10.5" min="0" step="0.1">
-        <div class="info-text" id="hoursHelpText">Default jam dikemas kini automatik ikut jenis hari.</div>
+        <div class="info-text" id="hoursHelpText">Default jam dikemas kini auto ikut jenis hari.</div>
     </div>
 
     <div class="results-container">
